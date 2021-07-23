@@ -1,0 +1,10 @@
+//设置@/之后的提示
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/*":["src/*"]
+        }
+    },
+    "exclude": ["node_modules","dist"]
+}
